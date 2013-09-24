@@ -1,0 +1,50 @@
+0:02:00.0: EVT_LOGT:0234829060:0x0100011c:1334
+[16321.473911] iwlwifi 0000:02:00.0: EVT_LOGT:0234829061:0x0a200052:1334
+[16321.473947] iwlwifi 0000:02:00.0: EVT_LOGT:0234829062:0x010101a8:1334
+[16321.473983] iwlwifi 0000:02:00.0: EVT_LOGT:0234829063:0x0a210054:1334
+[16321.474019] iwlwifi 0000:02:00.0: EVT_LOGT:0234829064:0x02000000:1334
+[16321.474054] iwlwifi 0000:02:00.0: EVT_LOGT:0234829064:0x02010000:1334
+[16321.474090] iwlwifi 0000:02:00.0: EVT_LOGT:0234833123:0x00000004:1333
+[16321.474126] iwlwifi 0000:02:00.0: EVT_LOGT:0234833124:0x0006d300:1333
+[16321.474162] iwlwifi 0000:02:00.0: EVT_LOGT:0234837394:0x00010090:1333
+[16321.474198] iwlwifi 0000:02:00.0: EVT_LOGT:0234837394:0x0092d400:1333
+[16321.474233] iwlwifi 0000:02:00.0: EVT_LOGT:0234841580:0x0100011c:1333
+[16321.474269] iwlwifi 0000:02:00.0: EVT_LOGT:0234841581:0x011ed500:1333
+[16321.474304] iwlwifi 0000:02:00.0: EVT_LOGT:0234846057:0x010101a8:1333
+[16321.474339] iwlwifi 0000:02:00.0: EVT_LOGT:0234846057:0x01aad600:1333
+[16321.474375] iwlwifi 0000:02:00.0: EVT_LOGT:0234846061:0x00000000:0302
+[16321.474411] iwlwifi 0000:02:00.0: EVT_LOGT:0234846505:0x09e0004e:0401
+[16321.474448] iwlwifi 0000:02:00.0: EVT_LOGT:0234846533:0x00000000:0125
+[16321.474507] iwlwifi 0000:02:00.0: Command REPLY_ADD_STA failed: FW Error
+[16321.474514] iwlwifi 0000:02:00.0: Adding station 00:24:6c:d3:85:c1 failed.
+[16321.474522] iwlwifi 0000:02:00.0: fw recovery, no hcmd send
+[16321.474527] iwlwifi 0000:02:00.0: Error sending REPLY_ADD_STA: enqueue_hcmd failed: -5
+[16321.474531] iwlwifi 0000:02:00.0: Adding station ff:ff:ff:ff:ff:ff failed.
+[16321.474537] iwlwifi 0000:02:00.0: fw recovery, no hcmd send
+[16321.474541] iwlwifi 0000:02:00.0: Error sending REPLY_RXON_TIMING: enqueue_hcmd failed: -5
+[16321.474545] iwlwifi 0000:02:00.0: Failed to send timing (-5)!
+[16321.474951] ieee80211 phy0: Hardware restart was requested
+[16321.494820] wlan0: associate with 00:1a:1e:26:a6:e1 (try 1)
+[16321.495249] iwlwifi 0000:02:00.0: L1 Enabled; Disabling L0S
+[16321.503033] iwlwifi 0000:02:00.0: Radio type=0x2-0x0-0x0
+[16321.603639] wlan0: RX ReassocResp from 00:1a:1e:26:a6:e1 (capab=0x21 status=17 aid=0)
+[16321.603646] wlan0: 00:1a:1e:26:a6:e1 denied association (code=17)
+[16321.610258] wlan0: deauthenticating from 00:1a:1e:26:a6:e1 by local choice (reason=3)
+[16322.061950] wlan0: authenticate with 00:1a:1e:26:a6:e1 (try 1)
+[16322.069172] wlan0: authenticated
+[16322.069760] wlan0: associate with 00:1a:1e:26:a6:e1 (try 1)
+[16322.077967] wlan0: RX AssocResp from 00:1a:1e:26:a6:e1 (capab=0x1431 status=0 aid=1)
+[16322.077974] wlan0: associated
+[16322.077980] wlan0: No basic rates in AssocResp. Using min supported rate instead.
+[16329.176726] iwlwifi 0000:02:00.0: Tx aggregation enabled on ra = 00:1a:1e:26:a6:e1 tid = 0
+[16510.903882] wlan0: authenticate with 00:24:6c:d3:85:c1 (try 1)
+[16510.911871] wlan0: authenticated
+[16510.975697] wlan0: associate with 00:24:6c:d3:85:c1 (try 1)
+[16510.980970] wlan0: RX ReassocResp from 00:24:6c:d3:85:c1 (capab=0x21 status=17 aid=0)
+[16510.980977] wlan0: 00:24:6c:d3:85:c1 denied association (code=17)
+[16510.981277] wlan0: deauthenticating from 00:24:6c:d3:85:c1 by local choice (reason=3)
+[16511.458912] wlan0: authenticate with 00:24:6c:d3:85:c1 (try 1)
+[16511.460899] wlan0: authenticated
+[16511.463568] wlan0: associate with 00:24:6c:d3:85:c1 (try 1)
+[16511.467795] wlan0: RX AssocResp from 00:24:6c:d3:85:c1 (capab=0x1431 status=0 aid=1)
+[16511.467798] wlan0: associated
